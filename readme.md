@@ -7,7 +7,7 @@ Apache maven plugin to enforce that all keys are replaced when using maven resou
 * To ensure that no password are in clear text,
 * To enforce anything that can be checked with regexp.
 
-This maven plugin use regular expression to locate matches and make the build fail with a nice readable message.
+This maven plugin use regular expression to locate matches and make the build fail with a nice readable message. It traverse recursively all folders and support multiple grep.
 
 **In Short it enforce some criteria using grep.**
 
